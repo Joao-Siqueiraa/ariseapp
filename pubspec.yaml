@@ -1,0 +1,35 @@
+name: arise_app
+description: "Sistema de RPG para produtividade estilo Solo Leveling"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2 # O que salva seus dados
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1 # O que cria seu ícone
+
+# CONFIGURAÇÃO DO ÍCONE
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon_arise.png"
+  adaptive_icon_background: "#00E5FF"
+  adaptive_icon_foreground: "assets/icon_arise.png"
+
+flutter:
+  uses-material-design: true
+
+  # CERTIFIQUE-SE DE QUE ISSO ESTÁ AQUI PARA A IMAGEM FUNCIONAR
+  assets:
+    - assets/icon_arise.png

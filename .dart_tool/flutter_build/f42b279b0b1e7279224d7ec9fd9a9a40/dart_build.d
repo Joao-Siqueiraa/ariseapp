@@ -1,0 +1,1 @@
+ C:\\Users\\joaop\\OneDrive\\Desktop\\ariseapp\\.dart_tool\\flutter_build\\f42b279b0b1e7279224d7ec9fd9a9a40\\dart_build_result.json: 
